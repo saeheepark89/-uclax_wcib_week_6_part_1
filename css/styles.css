@@ -1,0 +1,61 @@
+/*
+ * Base structure
+ */
+body {
+  background-image: url(../images/background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #3E0554;
+  width: 533px;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif; }
+
+.bg-dark {
+  background-color: #3E0554 !important; }
+
+.navbar-brand {
+  margin-left: 2rem; }
+
+.jumbotron-fluid {
+  position: relative;
+  padding: 0 !important;
+  margin-top: 70px !important;
+  background: rgba(179, 46, 232, 0.1);
+  margin-top: 23px;
+  text-align: center;
+  margin-bottom: 0 !important; }
+
+.full-img {
+  position: relative;
+  display: block;
+  width: 533px;
+  height: 800px; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 533px;
+  height: 800px;
+  background-color: rgba(0, 0, 0, 0); }
+
+button {
+  border: 0;
+  background: rgba(150, 150, 150, 0.6);
+  text-shadow: 1px 1px 1px white;
+  border: 1px solid #999;
+  position: absolute;
+  cursor: pointer;
+  top: 2px;
+  left: 2px; }
+
+.thumb-bar {
+  width: 592px; }
+
+.thumb-bar img {
+  display: block;
+  width: 18%;
+  float: left;
+  cursor: pointer; }
